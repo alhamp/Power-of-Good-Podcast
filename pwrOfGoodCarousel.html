@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!-- <html>
+<head>
+	<title>Power Of Good Podcast</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Power of Good Podcast</h1>
+	<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#episodes">Episodes</a>
+  <a href="#contact">Contact</a>
+	</div>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>PoGP Slider Carousel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesCarousel.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+
+<div class="pogp-display-container">
+
+<div class="pogp-display-container mySlides">
+  <img src="C:\Users\Amber\Documents\job\Power of Good\images\JakePodcastInterview2.jpg" style="width:45%">
+  <div class="pogp-display-bottomleft pogp-large pogp-container pogp-padding-16 pogp-#2E29C7">
+    Interviewing with Jake at Power Of Good Podcast.
+  </div>
+</div>
+
+<div class="pogp-display-container mySlides">
+  <img src="C:\Users\Amber\Documents\job\Power of Good\images\ep15MarilynJones.png" style="width:45%">
+  <div class="pogp-display-bottomleft pogp-small pogp-container pogp-padding-16 pogp-black">
+    Episode 15: Marilyn Jones, Founder, Because Black Is Still Beautiful
+  </div>
+</div>
+
+<div class="pogp-display-container mySlides">
+  <img src="img_mountains.jpg" style="width:100%">
+  <div class="pogp-display-topleft pogp-large pogp-container pogp-padding-16 pogp-black">
+    Beautiful Mountains
+  </div>
+</div>
+
+<div class="pogp-display-container mySlides">
+  <img src="img_forest.jpg" style="width:100%">
+  <div class="pogp-display-topright pogp-large pogp-container pogp-padding-16 pogp-black">
+    The Rain Forest
+  </div>
+</div>
+
+<div class="pogp-display-container mySlides">
+  <img src="img_mountains.jpg" style="width:100%">
+  <div class="pogp-display-middle pogp-large pogp-container pogp-padding-16 pogp-black">
+    Mountains!
+  </div>
+</div>
+
+<button class="pogp-button pogp-display-left pogp-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="pogp-button pogp-display-right pogp-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> -->
