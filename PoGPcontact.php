@@ -1,6 +1,6 @@
  <?php
     if(isset($_POST['email'])) {
-            $email_to = "c.edward.freeman@gmail.com";
+            $email_to = "amber.l.hampton@gmail.com";
              $email_subject = "Power of Good Podcast Follow-Up"};
  
         // your error code can go here -->
